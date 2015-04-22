@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDescriptor ID="_70a250d5-e3e1-494a-a392-7ed1736f3180" entityID="http://customsts.dev/" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <RoleDescriptor xsi:type="fed:SecurityTokenServiceType" protocolSupportEnumeration="http://docs.oasis-open.org/wsfed/federation/200706"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>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
+            hVovpsJODQRA1D7Tyr8BleFX+7i9AMN0WKC9m5E=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <ContactPerson contactType="administrative">
+      <GivenName>AP</GivenName>
+    </ContactPerson>
+    <fed:ClaimTypesOffered>
+      <auth:ClaimType Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" Optional="true" xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706">
+        <auth:DisplayName>Name</auth:DisplayName>
+        <auth:Description>The name of the subject.</auth:Description>
+      </auth:ClaimType>
+      <auth:ClaimType Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/role" Optional="true" xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706">
+        <auth:DisplayName>Role</auth:DisplayName>
+        <auth:Description>The role of the subject.</auth:Description>
+      </auth:ClaimType>
+    </fed:ClaimTypesOffered>
+    <fed:SecurityTokenServiceEndpoint>
+      <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+        <Address>http://customsts.dev/</Address>
+      </EndpointReference>
+    </fed:SecurityTokenServiceEndpoint>
+    <fed:PassiveRequestorEndpoint>
+      <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+        <Address>http://customsts.dev/</Address>
+      </EndpointReference>
+    </fed:PassiveRequestorEndpoint>
+  </RoleDescriptor>
+</EntityDescriptor>
