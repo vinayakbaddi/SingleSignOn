@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleSignOn", "SingleSignOn\SingleSignOn.csproj", "{60BE1157-6830-4809-A8B0-CB6273778F9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelyingParty1", "RelyingParty1\RelyingParty1.csproj", "{30F97FBA-5C06-44E5-849D-CBED6D49AC47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOCS", "DOCS", "{F6B4B77B-9D42-4632-BDCA-6F17858B2578}"
+	ProjectSection(SolutionItems) = preProject
+		..\SingleSignOn.xps = ..\SingleSignOn.xps
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
